@@ -11,3 +11,20 @@ document.getElementById("enter").addEventListener("click", function() {
         audio.play();
     }
 });
+
+// animate title
+var title = document.querySelector('title');
+title.innerHTML = '^-^';
+
+const animation = [
+    "^-^", 
+    "^-*",
+    "^-^",
+    "*-^"
+]
+
+var i = 0;
+setInterval(function() {
+    title.innerHTML = animation[i];
+    i = (i + 1) % animation.length;
+}, 1000);
