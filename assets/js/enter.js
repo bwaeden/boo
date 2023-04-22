@@ -18,9 +18,9 @@ title.innerHTML = '^-^';
 
 const animation = [
     "^-^", 
-    "^-*",
+    ":3",
     "^-^",
-    "*-^"
+    ":3"
 ]
 
 var i = 0;
